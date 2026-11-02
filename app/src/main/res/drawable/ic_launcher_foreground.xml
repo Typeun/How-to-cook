@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标前景层（Android 8.0+）：白色锅具，全部落在 66dp 安全区内 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 锅身（下半圆） -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M34,58.9 h40 a20,20 0 0 1 -40,0 z"/>
+    <!-- 锅沿 -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M37.25,54.3 h35.5 a2.45,2.45 0 0 1 0,4.9 h-35.5 a2.45,2.45 0 0 1 0,-4.9 z"/>
+    <!-- 手柄 -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M73.2,54.9 h10.4 a2.15,2.15 0 0 1 0,4.3 h-10.4 z"/>
+    <!-- 蒸汽（左） -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:strokeLineCap="round" android:fillColor="#FFFFFF"
+        android:fillAlpha="0"
+        android:pathData="M47.2,50.5 q-2.8,-3.2 0,-5.8 q2.8,-2.6 0,-5.8"/>
+    <!-- 蒸汽（右） -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3"
+        android:strokeLineCap="round" android:fillColor="#FFFFFF"
+        android:fillAlpha="0"
+        android:pathData="M61.2,50.5 q-2.8,-3.2 0,-5.8 q2.8,-2.6 0,-5.8"/>
+</vector>

@@ -1,0 +1,7 @@
+<resources>
+    <color name="primary">#F57C00</color>
+    <color name="primary_dark">#E65100</color>
+    <color name="background">#FAFAFA</color>
+    <!-- 自适应图标（Android 8.0+）的背景层 -->
+    <color name="ic_launcher_background">#F57C00</color>
+</resources>

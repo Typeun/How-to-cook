@@ -1,0 +1,25 @@
+# ---- Gradle / Android ----
+.gradle/
+build/
+*/build/
+captures/
+local.properties
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# ---- IDE ----
+.idea/
+*.hprof
+*.jks.idx
+.DS_Store
+Thumbs.db
+
+# ---- 签名密钥（不随仓库分发）----
+keystore/
+*.jks
+*.keystore
+
+# ---- 其它 ----
+*.log
+release/
