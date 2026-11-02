@@ -51,7 +51,9 @@
 
 ## 下载安装
 
-1. 手机下载 [`dist/cc-1.01-release.apk`](dist/cc-1.01-release.apk)；
+**直接装**：到 [Releases](https://github.com/Typeun/How-to-cook/releases/latest) 下载 `cc-1.01-release.apk`（或本仓库内的 [`dist/cc-1.01-release.apk`](dist/cc-1.01-release.apk)）。
+
+1. 手机下载 APK；
 2. 点击安装，若提示「禁止安装未知来源应用」，在系统设置里对本浏览器/文件管理器放行；
 3. 已校验：v1 + v2 签名、zipalign 通过、非 debuggable。
 
@@ -121,8 +123,8 @@ sha256sum cc-1.01-release.apk
 
 ```bash
 # 1) 克隆
-git clone https://github.com/typeun/cc.git
-cd cc
+git clone https://github.com/Typeun/How-to-cook.git
+cd How-to-cook
 
 # 2) 配置 SDK 路径（或直接用 Android Studio 打开，自动生成 local.properties）
 echo "sdk.dir=/path/to/Android/Sdk" > local.properties
