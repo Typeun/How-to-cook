@@ -198,10 +198,11 @@ keytool -genkeypair -v -keystore my-release.jks -alias mykey \
 
 ## 许可
 
-<!-- 待补充：选定一个协议，例如 MIT / Apache-2.0，并补上 LICENSE 文件 -->
+本仓库的**代码**部分遵循 [MIT License](LICENSE)：可自由使用、修改、分发、商用，保留版权与许可声明即可。
 
-本仓库的**代码**部分：_（待定）_。
-`app/src/main/assets/recipes.json` 中的**菜谱内容**来自 HowToCook，遵循 **The Unlicense**（公有领域）。
+`app/src/main/assets/recipes.json` 中的**菜谱内容**来自 [HowToCook](https://github.com/Anduin2017/HowToCook)，遵循 **The Unlicense**（公有领域），不受上面的 MIT 条款约束。
+
+简单说：代码随便拿去改，菜谱随便拿去用，两个都很宽松。
 
 ##此内容由AI生成##
 
