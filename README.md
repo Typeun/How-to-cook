@@ -18,13 +18,15 @@
 
 | 首页 · 今日推荐 | 分类导航 | 菜谱详情 |
 |:---:|:---:|:---:|
-| <img src="docs/screenshots/home.jpg" width="230" alt="首页"> | <img src="docs/screenshots/drawer.jpg" width="230" alt="分类导航"> | <img src="docs/screenshots/detail.jpg" width="230" alt="菜谱详情"> |
+| <img src="https://fastly.jsdelivr.net/gh/Typeun/How-to-cook@main/docs/screenshots/home.jpg" width="230" alt="首页"> | <img src="https://fastly.jsdelivr.net/gh/Typeun/How-to-cook@main/docs/screenshots/drawer.jpg" width="230" alt="分类导航"> | <img src="https://fastly.jsdelivr.net/gh/Typeun/How-to-cook@main/docs/screenshots/detail.jpg" width="230" alt="菜谱详情"> |
 | 每天 3 道不同分类的推荐，与列表用横线分隔 | 10 大分类、本日收藏夹、一键添加到桌面 | 原料、按份数换算的计算公式、分步操作 |
 
 | 桌面小组件 |
 |:---:|
-| <img src="docs/screenshots/widget.jpg" width="430" alt="桌面小组件"> |
+| <img src="https://fastly.jsdelivr.net/gh/Typeun/How-to-cook@main/docs/screenshots/widget.jpg" width="430" alt="桌面小组件"> |
 | 收藏的菜钉在桌面，点条目深链直达详情 |
+
+> 图片经 jsDelivr CDN 分发，国内网络可直连；仓库内 `docs/screenshots/` 保留原图。
 
 ---
 
