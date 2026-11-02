@@ -16,11 +16,15 @@
 
 ## 截图
 
-<!-- 待补充：把 3~4 张手机截图放进 docs/screenshots/，然后把下面两行改成图片引用 -->
+| 首页 · 今日推荐 | 分类导航 | 菜谱详情 |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/home.jpg" width="230" alt="首页"> | <img src="docs/screenshots/drawer.jpg" width="230" alt="分类导航"> | <img src="docs/screenshots/detail.jpg" width="230" alt="菜谱详情"> |
+| 每天 3 道不同分类的推荐，与列表用横线分隔 | 10 大分类、本日收藏夹、一键添加到桌面 | 原料、按份数换算的计算公式、分步操作 |
 
-| 首页 | 详情页 | 侧拉栏 |
-|---|---|---|
-| _（待添加）_ | _（待添加）_ | _（待添加）_ |
+| 桌面小组件 |
+|:---:|
+| <img src="docs/screenshots/widget.jpg" width="430" alt="桌面小组件"> |
+| 收藏的菜钉在桌面，点条目深链直达详情 |
 
 ---
 
@@ -108,8 +112,9 @@ sha256sum cc-1.01-release.apk
 │       │   └── widget/                  # 桌面小组件与「一键添加」
 │       └── res/                         # 图标、主题、小组件布局
 ├── dist/cc-1.01-release.apk             # 已签名安装包
-├── docs/                                # 截图等素材（待补充）
+├── docs/screenshots/                    # 应用截图（README 引用）
 ├── RELEASE_NOTES.md                     # 更新日志
+├── LICENSE                              # MIT（代码部分）
 ├── build.gradle / settings.gradle
 ├── gradle.properties                    # 签名配置留空，需自备密钥
 └── gradlew / gradlew.bat                # Gradle Wrapper（已内置，无需联网下载）
@@ -181,8 +186,6 @@ keytool -genkeypair -v -keystore my-release.jks -alias mykey \
 ---
 
 ## 路线图
-
-<!-- 待补充：这里留给你自己写想法，示例先放着，不需要的直接删 -->
 
 - [ ] 深色模式
 - [ ] 按食材反查菜谱（冰箱里有什么做什么）
