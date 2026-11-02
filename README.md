@@ -202,3 +202,6 @@ keytool -genkeypair -v -keystore my-release.jks -alias mykey \
 
 本仓库的**代码**部分：_（待定）_。
 `app/src/main/assets/recipes.json` 中的**菜谱内容**来自 HowToCook，遵循 **The Unlicense**（公有领域）。
+
+##此内容由AI生成##
+
