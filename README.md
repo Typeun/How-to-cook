@@ -180,12 +180,6 @@ keytool -genkeypair -v -keystore my-release.jks -alias mykey \
 
 ---
 
-## 更新日志
-
-v1.01（2026-11-03）：包名定为 `com.typeun.cc`，最低系统降到 Android 5.0，图标改为圆形，改为 release 签名构建（9.9 MB）。
-
----
-
 ## 致谢
 
 - 菜谱内容：[Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 及全部贡献者
