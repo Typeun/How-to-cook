@@ -57,7 +57,7 @@
 
 ## 下载安装
 
-**直接装**：到 [Releases](https://github.com/Typeun/How-to-cook/releases/latest) 下载 `cc-1.01-release.apk`（或本仓库内的 [`dist/cc-1.01-release.apk`](dist/cc-1.01-release.apk)）。
+**直接装**：下载本仓库内的 [`dist/cc-1.01-release.apk`](dist/cc-1.01-release.apk)（9.9 MB，或 `git clone` 后在 `dist/` 里取）。
 
 1. 手机下载 APK；
 2. 点击安装，若提示「禁止安装未知来源应用」，在系统设置里对本浏览器/文件管理器放行；
@@ -184,15 +184,6 @@ keytool -genkeypair -v -keystore my-release.jks -alias mykey \
 ## 更新日志
 
 见 [RELEASE_NOTES.md](RELEASE_NOTES.md)。
-
----
-
-## 路线图
-
-- [ ] 深色模式
-- [ ] 按食材反查菜谱（冰箱里有什么做什么）
-- [ ] 菜谱数据跟随上游自动更新
-- [ ] 平板 / 折叠屏适配
 
 ---
 
