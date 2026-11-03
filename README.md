@@ -115,7 +115,6 @@ sha256sum cc-1.01-release.apk
 │       └── res/                         # 图标、主题、小组件布局
 ├── dist/cc-1.01-release.apk             # 已签名安装包
 ├── docs/screenshots/                    # 应用截图（README 引用）
-├── RELEASE_NOTES.md                     # 更新日志
 ├── LICENSE                              # MIT（代码部分）
 ├── build.gradle / settings.gradle
 ├── gradle.properties                    # 签名配置留空，需自备密钥
@@ -183,7 +182,7 @@ keytool -genkeypair -v -keystore my-release.jks -alias mykey \
 
 ## 更新日志
 
-见 [RELEASE_NOTES.md](RELEASE_NOTES.md)。
+v1.01（2026-11-03）：包名定为 `com.typeun.cc`，最低系统降到 Android 5.0，图标改为圆形，改为 release 签名构建（9.9 MB）。
 
 ---
 
